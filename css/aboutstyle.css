@@ -75,7 +75,7 @@ header ul div.align-right{
     text-decoration: underline;
     background-color: maroon;
     padding: 20px;
-   
+    
 }
 .showcase{
     width: 100%;
@@ -94,7 +94,7 @@ header ul div.align-right{
 .whole{
     width: 100%;
     height: 1000px;
-    background-image: url('../img/20.jpg');
+    background-image: url('../img/17.jpg');
     background-size: cover;
     border: 1px solid gray;
 }
@@ -115,4 +115,20 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.error{
+    width: 92%;
+    background-color: #f2dede;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0px auto;
+    text-align: left;
+    color: #a94442;
+    border: 1px solid #a94442;
+}
+.success{
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
 }

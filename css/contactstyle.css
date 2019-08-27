@@ -77,21 +77,8 @@ header ul div.align-right{
     padding: 20px;
    
 }
-.showcase{
-    width: 100%;
-    height: 400px;
-    margin: auto;
-    background-image: url('../img/9.jpg');
-    background-size: cover;
-    
-}
-.showcase #shorttext{
-    margin: 150px 0px 0px 0px;
-    color: maroon;
-    padding: 10px 0px;
-    font-size: 25px;
-}
 .whole{
+    margin: 0;
     width: 100%;
     height: 1000px;
     background-image: url('../img/20.jpg');
@@ -105,6 +92,71 @@ header ul div.align-right{
     background-color: white;
     opacity: 0.8;
     border: 1px solid gray;
+    display: block
+}
+.pic{
+    width: 150px;
+    height: 220px;
+    margin: 10px 150px 20px 590px;
+    box-sizing: border-box;
+    top: 10;
+    padding: 5px;
+    border: 2px solid black;
+}
+.pic img{
+    width: 128px;
+    height: 192px;
+    margin: 5px 5px 5px 4px;
+}
+.write1{
+    margin: 10px 150px 40px 335px;
+    width: 50%;
+    text-align: center;
+}
+.write1 p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inputgroup{
+    max-width: 28%;
+    max-height: 320px;
+    background: #FAFAFA;
+    padding: 30px;
+    margin: 40px 0px 40px 210px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 0px;
+    border: 6px solid black;
+    box-shadow: 5px 5px 10px gray;
+    opacity: 0.8;
+}
+.inputgroup ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.inputgroup ul li{
+    display: block;
+    margin-bottom: 10px;
+    min-height: 35px;
+}
+.inputgroup ul li  .field-style{
+    width: 100%;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    padding: 8px;
+    outline: none;
+    border: 1px solid gray;
+} 
+.inputgroup ul li input[type="submit"] {
+    background-color: black;
+    border: 1px solid gray;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    padding: 18px 18px;
+    text-decoration: none;
+    font: 12px Arial, Helvetica, sans-serif;
+    margin: 10px 0px 10px 10px;
 }
 footer{
     background: rgb(27, 24, 24);
